@@ -1,6 +1,5 @@
 
 FROM alpine:3.4
-MAINTAINER haolunzhang@yirendai.com
 
 # see: http://wiki.alpinelinux.org/wiki/Setting_the_timezone
 RUN echo "https://mirror.tuna.tsinghua.edu.cn/alpine/v3.4/main" > /etc/apk/repositories && \
